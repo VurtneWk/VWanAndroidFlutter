@@ -64,7 +64,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-//    _context = context;
     return new Scaffold(
       appBar: AppBar(
         actions: <Widget>[Icon(Icons.search)],

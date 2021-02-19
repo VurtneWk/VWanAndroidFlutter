@@ -27,7 +27,6 @@ class HttpUtils {
     _dio.options.baseUrl = "https://wanandroid.com";
     _dio.options.connectTimeout = 5000; //5s
     _dio.options.receiveTimeout = 3000;
-
     return _dio;
   }
 }
